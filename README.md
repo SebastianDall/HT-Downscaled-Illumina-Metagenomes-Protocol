@@ -19,7 +19,7 @@ This protocol is a step-by-step guide for making metagenomes in a high-throughpu
 ### DNA extraction plate
 The layout of the DNA extraction plate is as follows:
 
-<img src="figures/DNA_extraction_plate" alt="drawing" width=200/>
+<img src="figures/DNA_extraction_plate.png" alt="drawing" width=200/>
 
 
 
