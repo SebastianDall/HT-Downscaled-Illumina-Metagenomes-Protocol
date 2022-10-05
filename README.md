@@ -12,6 +12,7 @@ This repository contains the layouts and csv-files used in the HT downscaled Ill
 - Illumina DNA prep and IDT UD barcodes
 - Eppendorf electronic multipipette
 - Centrifuge plate spinner for PCR plates
+- Magnetic stand.
 
 
 ## Plate layouts
@@ -95,9 +96,11 @@ Each well contains a 3 ul reaction volume.
 - Add 1 ul barcodes.
 - FVS
 - Move samples needing 8, 10, and 14 PCR cycles to individual PCR tubes. Denoted in `files/DNA_extraction_concentration.xlsx`.
+- Replace foil on the plate with plastic PCR caps to prevent vaporization.
 - Place all samples in a thermocycler and run PCR programme based on the PCR cycles required.
 - Move samples requiring extra cycles back to the PCR plate.
 
+**Safe stopping point**
 
 ## Library cleanup
 - Add 17 ul NFW to each well.
@@ -125,4 +128,39 @@ Each well contains a 3 ul reaction volume.
 - Remove from the magnetic stand
 - Add 20 ul NFW by hand.
 - FVS.
+
+**Safe stopping point**
+
+## Pooling of libraries
+### Measure concentration of libraries
+- Place the plate on the magnetic stand and wait until the liquid clears (~2 minutes).
+- Measure the library concentration using Qubit 1x dsDNA High Sensitivity Assay.
+- Add the measured concentration to the `files/library_concentration.xlsx` template. 
+- Copy the Vsample column to the `files/idot_pooling.csv` template.
+
+### Pooling of libraries
+- Transfer 15 ul sample to a new S.100 source plate using the epMotion and place in the source tray of the I-DOT.
+- Place a PCR plate in the target position of the I-DOT.
+- Run the `idot_pooling.csv` file. 2 ng DNA or a maximum of 9 ul from each sample will be transfered to the PCR target plate.
+- Remove the target place from the PCR and transfer the liquids to a 2 ml eppendorf tube.
+
+### Concentrate library pool
+- Measure the volume of the library pool.
+- Add pronex beads corresponding to 2x the volume of the pool.
+- Mix until homogenized.
+- Incubate for 10 minutes on the HULA-mixer.
+- Place the tube on a magnet and let the beads pellet for 2 minutes.
+- Remove the supernatant.
+- Leaving the sample on the magnetic stand, wash two times with 800 µL enclosed Wash Buffer.
+- Remove residues of wash buffer with a 10 µL pipette. 
+- Air dry the beads for 5 minutes.
+- Remove the tube from the magnet and add 65 µL NFW. 
+- Mix by flicking
+- Incubate the sample at room temperature for 5 minutes to elute the DNA.
+- Spin down the tube and place it on a magnet.
+- Transfer the supernatant to a new eppendorf tube.
+
+
+## Final
+At this point, a concentrated pool of libraries has been made. Next steps would be measuring the concentration and running a tapestation to assess quality of the pooled libraries.
 
