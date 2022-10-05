@@ -79,10 +79,50 @@ Each well contains a 3 ul reaction volume.
     2. FVS
     3. Place the plate on the magnetic stand and wait until the liquid is clear (~2 minutes).
     4. Remove 13 µL and discard supernatant with the epMotion.
-    5. Repeat step 1-4
+    5. Repeat step i-iv
 - Remove the plate from the magnetic stand and add 10 µL TWB directly onto the beads using the Eppendorf electronic multipipette.
 - FVS
 - Place the samples on a magnetic stand until the liquid is clear (~2 minutes).
 
+### Amplify tagmented DNA
+- Prepare the PCR-mastermix:
+<img src="figures/blt-tb1_programme.png" alt="drawing" width=500/>
 
+- Add 51.7 ul PCR-mastermix to eight S.100 source jets (A9-H9) and place in the source tray of the I-DOT.
+- Aspirate 15 ul TWB with the epMotion and place in the target tray of the I-DOT.
+- run the `files/PCR-mix_addition.idot`.
+- Take out the target plate and FVS.
+- Add 1 ul barcodes.
+- FVS
+- Move samples needing 8, 10, and 14 PCR cycles to individual PCR tubes. Denoted in `files/DNA_extraction_concentration.xlsx`.
+- Place all samples in a thermocycler and run PCR programme based on the PCR cycles required.
+- Move samples requiring extra cycles back to the PCR plate.
+
+
+## Library cleanup
+- Add 17 ul NFW to each well.
+- FVS.
+- Place the plate on the magnetic stand and wait until the liquid is clear (~2 minutes).
+- Prepare a new PCR plate containing 16 ul sample purification beads (SPB) and 18 ul NFW.
+- Transfer 18 ul supernatant from the sample plate to the new PCR plate with diluted SPB using the epMotion.
+    + Discard the sample plate.
+- FVS.
+- Incubate at room temperature for 5 minutes.
+- Place the plate on the magnetic stand and wait until the liquid is clear (~2 minutes).
+- Add 6 ul undiluted SPB to a new PCR plate
+- After incubation transfer 50 µL supernatant from each well of the first PCR plate into the corresponding well of the new PCR plate with undiluted SPB - Use the epMotion.
+- FVS.
+- Incubate at room temperature for 5 minutes.
+- Place on the magnetic stand and wait until the liquid clears (~2 minutes).
+- Without disturbing the beads, remove and discard 54 µL supernatant by hand.
+- Wash two times as follows:
+    1. Gently add 45 µL 80% EtOH to the beads by hand.
+    2. Incubate for 30 seconds.
+    3. Remove and discard the supernatant (50 µL) using the epMotion
+    4. Repeat steps i-iii
+    5. Use a 10 μL pipette to remove residual EtOH by hand if necessary.
+- Air dry on the magnetic stand for 2-3 minutes.
+- Remove from the magnetic stand
+- Add 20 ul NFW by hand.
+- FVS.
 
