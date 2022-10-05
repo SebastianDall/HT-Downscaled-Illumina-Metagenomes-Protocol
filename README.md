@@ -1,6 +1,6 @@
 # HT Downscaled Illumina Metagenomes Protocol
 
-This repository contains the layouts and csv-files used in the HT downscaled Illumina Metagenomes Protocol described in **ATICLE**.
+This repository describes the high throughput downscaled Illumina Metagenomes Protocol described in **ATICLE**. This repository describes a step-by-step guide for making metagenomes in a high-throughput setting using a 1:10 downscaled version of the Illumina DNA prep kit.
 
 ## Equipment and consumables
 - I-DOT one
@@ -16,7 +16,7 @@ This repository contains the layouts and csv-files used in the HT downscaled Ill
 
 
 ## Plate layouts
-This protocol is a step-by-step guide for making metagenomes in a high-throughput setting using a 1:10 downscaled version of the Illumina DNA prep kit.
+To understand the individual steps in the protocol, it is necessary to understand the input and output layouts of the plates resulting from the I-DOT.
 
 ### DNA extraction plate
 The first step is to create a 3 ul reaction volume with 20 ng of DNA or less, based on the DNA extraction concentration. The layout of the DNA extraction plate is as follows:
