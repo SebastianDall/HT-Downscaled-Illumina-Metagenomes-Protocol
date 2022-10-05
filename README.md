@@ -1,1 +1,1 @@
-# HT-Downscaled-Illumina-Metagenomes-Protocol
+# HT Downscaled Illumina Metagenomes Protocol
