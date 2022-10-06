@@ -96,6 +96,10 @@ Each well contains a 3 ul reaction volume.
 - Add 1 ul barcodes.
 - FVS
 - Move samples needing 8, 10, and 14 PCR cycles to individual PCR tubes. Denoted in `files/DNA_extraction_concentration.xlsx`.
+    + **7**: >= 4.9 ng
+    + **8**: 2.5 - 4.9 ng
+    + **10**: 0.9 - 2.5 ng
+    + **14**: < 0.9 ng 
 - Replace foil on the plate with plastic PCR caps to prevent vaporization.
 - Place all samples in a thermocycler and run PCR programme based on the PCR cycles required.
 - Move samples requiring extra cycles back to the PCR plate.
