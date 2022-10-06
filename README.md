@@ -7,7 +7,7 @@ This repository describes the high throughput downscaled Illumina Metagenomes Pr
     + S.100 source plate
     + PUREPlate 200 wells
 - PCR target plates
-- epMotion:R:96
+- epMotion&reg;96
     + epMotion tips
 - Illumina DNA prep and IDT UD barcodes
 - Eppendorf electronic multipipette
