@@ -44,6 +44,7 @@ Each well contains a 3 ul reaction volume.
 ## Protocol
 ### Tagementation
 - Copy data from the `files/DNA_extraction_concentration.xlsx` and fill out the CSV template – `files/idot_CSV_dilution_template.csv`.
+    + Alternatively, run the `makeIdotDilutionSchema.R`
 - Delete all rows containing 0 µL in `files/idot_CSV_dilution_template.csv`.
 - Load 10 µL sample onto a S.100 source plate using the EP-motion (grey tips).
 - Add 7 µl PCR positive control in F12
@@ -140,7 +141,7 @@ Each well contains a 3 ul reaction volume.
 - Place the plate on the magnetic stand and wait until the liquid clears (~2 minutes).
 - Measure the library concentration using Qubit 1x dsDNA High Sensitivity Assay.
 - Add the measured concentration to the `files/library_concentration.xlsx` template. 
-- Copy the Vsample column to the `files/idot_pooling.csv` template.
+- Copy the Vsample column to the `files/idot_pooling.csv` template or run the `makeIdotPoolingSchema.R`
 
 ### Pooling of libraries
 - Transfer 15 ul sample to a new S.100 source plate using the epMotion and place in the source tray of the I-DOT.
